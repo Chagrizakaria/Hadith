@@ -1,0 +1,145 @@
+
+
+.back {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../src/assets/images/grace-zhu-2yZ-CzlBrZ4-unsplash.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+height: 100vh;
+}
+
+.back-title {
+  background-color: rgba(16, 224, 174, 0.66);
+  ;
+}
+
+.cardhadith {
+  background-color: rgba(16, 224, 174, 0.66);
+  font-size: 20px; ;
+  margin-bottom: 20px;
+}
+.stick {
+  background-color: #10E0AE;
+}
+
+
+.hover-scale {
+  transition: transform 0.2s ease-in-out;
+}
+
+.hover-scale:hover {
+  transform: scale(1.1);
+}
+
+
+.copier {
+  width: 50px;
+  height: 50px;
+
+}
+
+.colorbackground {
+  background-color: rgba(16, 224, 174, 0.66);
+  width: 90px;
+  height: 60px;
+
+ margin-bottom:43px;
+border-color: rgba(16, 224, 174, 0.66);
+}
+h1{
+  font-size: 30px;
+}
+
+@media (max-width: 767.98px ) or (max-height: 600px)  {
+
+  .back {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../src/assets/images/grace-zhu-2yZ-CzlBrZ4-unsplash.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height:100.19vh;
+  }
+  .cardhadith {
+    background-color: rgba(16, 224, 174, 0.66);
+    font-size: 15px; ;
+  }
+  .copier {
+    width: 30px;
+    height: 30px;
+  
+  }
+  h3{
+    font-size:medium;
+  }
+  h1{
+    font-size: 25px;
+  }
+  .colorbackground {
+     width: 80px;
+    height: 50px;
+  
+   
+   margin-bottom:80px;
+  
+  }
+
+}
+
+
+@media (max-width: 460px) or (max-height: 300px){
+
+  .back {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../src/assets/images/grace-zhu-2yZ-CzlBrZ4-unsplash.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height:100.19vh;
+  }
+  .cardhadith {
+    background-color: rgba(16, 224, 174, 0.66);
+    font-size: 13px; 
+    margin-bottom: 90px;
+  }
+  .copier {
+    width: 20px;
+    height: 20px;
+  
+  }
+  h3{
+    font-size:small;
+  }
+  h1{
+    font-size: 17px;
+  }
+  .colorbackground {
+     width: 50px;
+    height: 30px;
+  font-size: small;
+   
+   margin-top:100px;
+  
+  }
+  .back-title {
+    background-color: rgba(16, 224, 174, 0.66);
+    ;
+    
+  }
+
+  .back-title {
+    background-color: rgba(16, 224, 174, 0.66);
+    ;
+  
+    
+  }
+
+
+}
